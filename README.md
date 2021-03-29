@@ -1,13 +1,13 @@
 ## 概要
 
-こちらの記事で用意したphp8の挙動を試せるdocker環境です
-https://qiita.com/drafts/23d79e43c87eade20981/edit
+こちらの記事で用意したphp8の挙動を試せるdocker環境です  
+https://qiita.com/yamamoto_hiroya/items/23d79e43c87eade20981
 
 ## 使い方
 
 ```bash
-git clone xxx
-cd /path/to/xxx
+git clone https://github.com/yamamoto-hiroya/php8_practice.git
+cd php8_practice/
 docker pull phpdockerio/php80-fpm
 docker-compose up -d
 docker exec -it php8 bash
