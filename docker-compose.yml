@@ -1,0 +1,7 @@
+version: '2.0'
+services:
+  app:
+    container_name: php8
+    image: phpdockerio/php80-fpm
+    volumes:
+      - ./:/var/www/html/
